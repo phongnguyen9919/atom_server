@@ -1,0 +1,26 @@
+name: atom_server
+description: An new Dart Frog application
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.1.2
+  bloc_concurrency: ^0.2.2
+  dart_frog: ^0.3.6
+  equatable: ^2.0.5
+  http: ^0.13.6
+  json_annotation: ^4.8.1
+  meta: ^1.9.1
+  mqtt_client: ^9.8.1
+  rfc_6901: ^0.1.1
+  rxdart: ^0.27.7
+  supabase: ^1.9.0
+  uuid: ^3.0.7
+
+dev_dependencies:
+  mocktail: ^0.3.0
+  test: ^1.19.2
+  very_good_analysis: ^4.0.0
